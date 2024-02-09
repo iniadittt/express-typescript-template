@@ -1,0 +1,28 @@
+{
+    "name": "lms",
+    "version": "1.0.0",
+    "description": "The source code of internal LMS in Algo Network",
+    "main": "src/main.ts",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "npm run build && node dist/main.js",
+        "start:dev": "nodemon src/main.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.1",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "nodemon": "^3.0.3",
+        "ts-node": "^10.9.2"
+    },
+    "devDependencies": {
+        "@jest/globals": "^29.7.0",
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.11.17",
+        "ts-jest": "^29.1.2",
+        "typescript": "^5.3.3"
+    }
+}
